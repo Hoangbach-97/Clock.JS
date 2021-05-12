@@ -1,0 +1,28 @@
+
+
+.timer1{
+    margin: 0 auto;
+    height:500px;
+    width: 500px;
+    background-color: black;
+    border: 5px solid rgb(200, 255, 0);
+    border-radius:50%;
+    
+    /* CĂN TRUNG TÂM VĂN BẢN */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* border: 3px solid aliceblue; */
+color: rgb(15, 196, 24);
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+letter-spacing: 5px;
+position: absolute;
+top: 50%;
+left: 50%;
+ transform:translateX(-50%) 
+translateY(-50%);
+
+}
